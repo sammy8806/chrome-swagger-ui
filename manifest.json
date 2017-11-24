@@ -1,11 +1,11 @@
 {
    "manifest_version": 2,
 
-   "name": "Swagger UI Console",
+   "name": "Swagger UI",
    "description": "Swagger UI for Firefox",
    "version": "1.0.0",
    "author": "<a href='mailto:steven.tappert@gmail.com'>Steven Tappert</a>",
-   "homepage_url": "https://github.com/mshauneu/chrome-swagger-ui",
+   "homepage_url": "https://github.com/sammy8806/firefox-swagger-ui",
 
    "icons": {
       "16" : "swagger-ui/dist/favicon-16x16.png",
@@ -22,7 +22,7 @@
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
    "background": {
       "scripts": ["background.js"]
-   }, 
+   },
    "browser_action": {
       "default_icon": {
          "19": "swagger-ui/dist/favicon-16x16.png",
