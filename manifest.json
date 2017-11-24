@@ -2,9 +2,9 @@
    "manifest_version": 2,
 
    "name": "Swagger UI Console",
-   "description": "Swagger UI Chrome App",
-   "version": "0.1.0",
-   "author": "<a href='mailto:m.shauneu@gmail.com'>Mike Shauneu</a>",
+   "description": "Swagger UI for Firefox",
+   "version": "1.0.0",
+   "author": "<a href='mailto:steven.tappert@gmail.com'>Steven Tappert</a>",
    "homepage_url": "https://github.com/mshauneu/chrome-swagger-ui",
 
    "icons": {
@@ -19,6 +19,7 @@
       "tabs",
       "clipboardWrite"
    ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
    "background": {
       "scripts": ["background.js"]
    }, 
