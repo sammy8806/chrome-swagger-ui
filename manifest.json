@@ -8,9 +8,10 @@
    "homepage_url": "https://github.com/sammy8806/firefox-swagger-ui",
 
    "icons": {
-      "16" : "swagger-ui/dist/favicon-16x16.png",
-      "64" : "swagger-ui/dist/favicon-32x32.png",
-      "128" : "swagger-ui/dist/favicon-32x32.png"
+      "16" : "logos/logo-swagger-16.png",
+      "32" : "logos/logo-swagger-32.png",
+      "64" : "logos/logo-swagger-64.png",
+      "128" : "logos/logo-swagger-128.png"
    },
 
    "permissions": [
@@ -25,8 +26,10 @@
    },
    "browser_action": {
       "default_icon": {
-         "19": "swagger-ui/dist/favicon-16x16.png",
-         "38": "swagger-ui/dist/favicon-32x32.png"
+         "16" : "logos/logo-swagger-16.png",
+         "32" : "logos/logo-swagger-32.png",
+         "64" : "logos/logo-swagger-64.png",
+         "128" : "logos/logo-swagger-128.png"
       },
       "default_title": "Swagger UI Console"
    }
