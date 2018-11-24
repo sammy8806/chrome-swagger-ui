@@ -25,6 +25,6 @@ cp *.js *.html *.json $build_dir/
 find "$build_dir" -name '.DS_Store' -delete
 
 cd "$build_dir"
-zip -r -FS ../swagger-ff.zip *
+zip -r -FS ../$build_filename *
 
 echo "Build Done"
